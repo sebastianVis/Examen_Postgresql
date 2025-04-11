@@ -2,7 +2,7 @@
 
 El proyecto busca ayudar con la gestión de inventarios de la empresa TechZone, donde se crea una base de datos, se normaliza, se provee inserciones para probar, se toman en cuenta las necesidades del cliente y se usan para realizar la base de datos con Postgresql.
 
-<img src="![alt text](modelo_er.jpg)">
+![alt text](modelo_er.jpg)
 
 ## Importar y ejecutar archivos SQL en PostgreSQL
 
