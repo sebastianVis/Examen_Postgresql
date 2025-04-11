@@ -73,3 +73,95 @@ id_ciudad SERIAL,
 zip VARCHAR(10),
 FOREIGN KEY (id_ciudad) REFERENCES ciudad(id_ciudad)
 );
+
+CREATE TABLE telefono(
+id_telefono SERIAL PRIMARY KEY,
+numero VARCHAR(15)
+);
+
+CREATE TABLE proveedor(
+id_proveedor SERIAL PRIMARY KEY,
+nombre VARCHAR(40),
+apellido VARCHAR(40),
+correo VARCHAR(50)
+);
+
+CREATE TABLE cliente(
+id_cliente SERIAL PRIMARY KEY,
+nombre VARCHAR(40),
+apellido VARCHAR(40),
+documento VARCHAR(10),
+correo VARCHAR(50)
+);
+
+CREATE TABLE cliente_direccion(
+id_direccion SERIAL,
+id_cliente SERIAL,
+PRIMARY KEY (id_direccion, id_cliente),
+FOREIGN KEY (id_direccion) REFERENCES direccion(id_direccion),
+FOREIGN KEY (id_cliente) REFERENCES cliente(id_cliente)
+);
+
+CREATE TABLE proveedor_direccion(
+id_direccion SERIAL,
+id_proveedor SERIAL,
+PRIMARY KEY (id_direccion, id_proveedor),
+FOREIGN KEY (id_direccion) REFERENCES direccion(id_direccion),
+FOREIGN KEY (id_proveedor) REFERENCES proveedor(id_proveedor)
+);
+
+CREATE TABLE empleado_direccion(
+id_direccion SERIAL,
+id_empleado SERIAL,
+PRIMARY KEY (id_direccion, id_empleado),
+FOREIGN KEY (id_direccion) REFERENCES direccion(id_direccion),
+FOREIGN KEY (id_empleado) REFERENCES empleados(id_empleado)
+);
+
+CREATE TABLE cliente_telefono(
+id_telefono SERIAL,
+id_cliente SERIAL,
+PRIMARY KEY (id_telefono, id_cliente),
+FOREIGN KEY (id_telefono) REFERENCES telefono(id_telefono),
+FOREIGN KEY (id_cliente) REFERENCES cliente(id_cliente)
+);
+
+CREATE TABLE empleado_telefono(
+id_telefono SERIAL,
+id_empleado SERIAL,
+PRIMARY KEY (id_telefono, id_empleado),
+FOREIGN KEY (id_telefono) REFERENCES telefono(id_telefono),
+FOREIGN KEY (id_empleado) REFERENCES empleados(id_empleado)
+);
+
+CREATE TABLE proveedor_telefono(
+id_telefono SERIAL,
+id_proveedor SERIAL,
+PRIMARY KEY (id_telefono, id_proveedor),
+FOREIGN KEY (id_telefono) REFERENCES telefono(id_telefono),
+FOREIGN KEY (id_proveedor) REFERENCES proveedor(id_proveedor)
+);
+
+CREATE TABLE ventas(
+id_venta SERIAL PRIMARY KEY,
+id_producto SERIAL,
+id_empleado SERIAL,
+id_cliente SERIAL,
+FOREIGN KEY (id_producto) REFERENCES productos(id_producto),
+FOREIGN KEY (id_empleado) REFERENCES empleados(id_empleado),
+FOREIGN KEY (id_cliente) REFERENCES cliente(id_cliente)
+);
+
+CREATE TABLE producto_venta(
+id_producto SERIAL,
+id_venta SERIAL,
+PRIMARY KEY (id_producto, id_venta),
+FOREIGN KEY (id_producto) REFERENCES productos(id_producto),
+FOREIGN KEY (id_venta) REFERENCES ventas(id_venta)
+);
+
+CREATE TABLE historial_ventas(
+id_venta SERIAL,
+fecha DATE,
+FOREIGN KEY (id_venta) REFERENCES ventas(id_venta)
+);

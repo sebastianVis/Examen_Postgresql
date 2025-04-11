@@ -671,7 +671,7 @@
 									"font": "Arial;13;1",
 									"left": 816,
 									"top": 397,
-									"width": 187.2060546875,
+									"width": 205.26513671875,
 									"height": 13,
 									"text": "clientes"
 								},
@@ -697,7 +697,7 @@
 											"font": "Arial;13;0",
 											"left": 821,
 											"top": 420,
-											"width": 177.2060546875,
+											"width": 195.26513671875,
 											"height": 13
 										},
 										{
@@ -712,7 +712,7 @@
 											"font": "Arial;13;0",
 											"left": 821,
 											"top": 435,
-											"width": 177.2060546875,
+											"width": 195.26513671875,
 											"height": 13
 										},
 										{
@@ -727,7 +727,7 @@
 											"font": "Arial;13;0",
 											"left": 821,
 											"top": 450,
-											"width": 177.2060546875,
+											"width": 195.26513671875,
 											"height": 13
 										},
 										{
@@ -742,7 +742,7 @@
 											"font": "Arial;13;0",
 											"left": 821,
 											"top": 465,
-											"width": 177.2060546875,
+											"width": 195.26513671875,
 											"height": 13
 										},
 										{
@@ -757,21 +757,21 @@
 											"font": "Arial;13;0",
 											"left": 821,
 											"top": 480,
-											"width": 177.2060546875,
+											"width": 195.26513671875,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 816,
 									"top": 415,
-									"width": 187.2060546875,
+									"width": 205.26513671875,
 									"height": 83
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 816,
 							"top": 392,
-							"width": 187.2060546875,
+							"width": 205.26513671875,
 							"height": 106,
 							"nameLabel": {
 								"$ref": "AAAAAAGWJKW1VP25O3M="
@@ -2079,7 +2079,7 @@
 									"font": "Arial;13;1",
 									"left": 1344,
 									"top": 805,
-									"width": 186.48876953125,
+									"width": 204.5478515625,
 									"height": 13,
 									"text": "telefono"
 								},
@@ -2105,7 +2105,7 @@
 											"font": "Arial;13;0",
 											"left": 1349,
 											"top": 828,
-											"width": 176.48876953125,
+											"width": 194.5478515625,
 											"height": 13
 										},
 										{
@@ -2120,21 +2120,21 @@
 											"font": "Arial;13;0",
 											"left": 1349,
 											"top": 843,
-											"width": 176.48876953125,
+											"width": 194.5478515625,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1344,
 									"top": 823,
-									"width": 186.48876953125,
+									"width": 204.5478515625,
 									"height": 38
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 1344,
 							"top": 800,
-							"width": 186.48876953125,
+							"width": 204.5478515625,
 							"height": 61,
 							"nameLabel": {
 								"$ref": "AAAAAAGWJLNluAAANkM="
@@ -2407,7 +2407,7 @@
 									"font": "Arial;13;1",
 									"left": 1048,
 									"top": 733,
-									"width": 157.13720703125,
+									"width": 196.13720703125,
 									"height": 13,
 									"text": "empleado_telefono"
 								},
@@ -2433,7 +2433,7 @@
 											"font": "Arial;13;0",
 											"left": 1053,
 											"top": 756,
-											"width": 147.13720703125,
+											"width": 186.13720703125,
 											"height": 13
 										},
 										{
@@ -2448,21 +2448,21 @@
 											"font": "Arial;13;0",
 											"left": 1053,
 											"top": 771,
-											"width": 147.13720703125,
+											"width": 186.13720703125,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1048,
 									"top": 751,
-									"width": 157.13720703125,
+									"width": 196.13720703125,
 									"height": 38
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 1048,
 							"top": 728,
-							"width": 157.13720703125,
+							"width": 196.13720703125,
 							"height": 61,
 							"nameLabel": {
 								"$ref": "AAAAAAGWJLU0zwBrdBk="
@@ -2573,7 +2573,7 @@
 									"font": "Arial;13;1",
 									"left": 1048,
 									"top": 901,
-									"width": 160.025390625,
+									"width": 199.025390625,
 									"height": 13,
 									"text": "proveedor_telefono"
 								},
@@ -2599,7 +2599,7 @@
 											"font": "Arial;13;0",
 											"left": 1053,
 											"top": 924,
-											"width": 150.025390625,
+											"width": 189.025390625,
 											"height": 13
 										},
 										{
@@ -2614,21 +2614,21 @@
 											"font": "Arial;13;0",
 											"left": 1053,
 											"top": 939,
-											"width": 150.025390625,
+											"width": 189.025390625,
 											"height": 13
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1048,
 									"top": 919,
-									"width": 160.025390625,
+									"width": 199.025390625,
 									"height": 38
 								}
 							],
 							"font": "Arial;13;0",
 							"left": 1048,
 							"top": 896,
-							"width": 160.025390625,
+							"width": 199.025390625,
 							"height": 61,
 							"nameLabel": {
 								"$ref": "AAAAAAGWJLWLDwCGSFE="
@@ -2851,7 +2851,7 @@
 										"$ref": "AAAAAAGWJLbzXwD1wAo="
 									},
 									"font": "Arial;13;0",
-									"left": 1230,
+									"left": 1269,
 									"top": 776,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -2869,7 +2869,7 @@
 								"$ref": "AAAAAAGWJLNluP//53s="
 							},
 							"lineStyle": 2,
-							"points": "1437:800;1437:768;1205:768",
+							"points": "1437:800;1437:768;1244:768",
 							"nameLabel": {
 								"$ref": "AAAAAAGWJLbzXwD2IHM="
 							},
@@ -2932,7 +2932,7 @@
 										"$ref": "AAAAAAGWJLcdVgELeUg="
 									},
 									"font": "Arial;13;0",
-									"left": 1233,
+									"left": 1272,
 									"top": 928,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -2950,7 +2950,7 @@
 								"$ref": "AAAAAAGWJLNluP//53s="
 							},
 							"lineStyle": 2,
-							"points": "1437:861;1437:920;1208:920",
+							"points": "1437:861;1437:920;1247:920",
 							"nameLabel": {
 								"$ref": "AAAAAAGWJLcdVgEMI+c="
 							},
@@ -5168,7 +5168,8 @@
 							},
 							"name": "id_cliente",
 							"type": "SERIAL",
-							"length": 0
+							"length": 0,
+							"primaryKey": true
 						},
 						{
 							"_type": "ERDColumn",
@@ -5947,7 +5948,8 @@
 							},
 							"name": "id_telefono",
 							"type": "SERIAL",
-							"length": 0
+							"length": 0,
+							"primaryKey": true
 						},
 						{
 							"_type": "ERDColumn",
@@ -6011,7 +6013,9 @@
 							},
 							"name": "id_telefono",
 							"type": "SERIAL",
-							"length": 0
+							"length": 0,
+							"primaryKey": true,
+							"foreignKey": true
 						},
 						{
 							"_type": "ERDColumn",
@@ -6021,7 +6025,9 @@
 							},
 							"name": "id_empleado",
 							"type": "SERIAL",
-							"length": 0
+							"length": 0,
+							"primaryKey": true,
+							"foreignKey": true
 						}
 					]
 				},
@@ -6075,7 +6081,9 @@
 							},
 							"name": "id_telefono",
 							"type": "SERIAL",
-							"length": 0
+							"length": 0,
+							"primaryKey": true,
+							"foreignKey": true
 						},
 						{
 							"_type": "ERDColumn",
@@ -6085,7 +6093,9 @@
 							},
 							"name": "id_proveedor",
 							"type": "SERIAL",
-							"length": 0
+							"length": 0,
+							"primaryKey": true,
+							"foreignKey": true
 						}
 					]
 				},
